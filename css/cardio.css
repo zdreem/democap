@@ -540,6 +540,7 @@ section {
 	z-index: 2;
 	margin-top: -60px;
 	border-radius: 50%;
+	max-width:120px;
 }
 
 .team .title {
