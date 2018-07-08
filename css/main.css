@@ -449,11 +449,11 @@ section {
 	}
 }
 
-.services {
-	margin: 40px 0;
+.products {
+	margin: 10px 0;
 }
 
-.service {
+.product {
 	width: 100%;
 	height: 320px;
 	margin: 80px 0;
@@ -463,41 +463,41 @@ section {
 	transition: all 0.3s ease;
 }
 
-.service .icon-holder {
+.product .icon-holder {
 	position: relative;
 	top: 100px;
 	display: inline-block;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 	padding: 10px;
 	background: white;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 
-.service .heading {
+.product .heading {
 	position: relative;
 	top: 80px;
 	-webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.service .icon-holder > img.icon {
+.product .icon-holder > img.icon {
 	width: 40px;
 }
 
-.service:hover {
+.product:hover {
 	border-color: #1985A1;
 }
 
-.service:hover .icon-holder {
+.product:hover .icon-holder {
 	top: -30px;
 }
 
-.service:hover .heading {
+.product:hover .heading {
 	top: -30px;
 }
 
-.service .description {
+.product .description {
 	width: 80%;
 	margin: 0 auto;
 	opacity: 0;
@@ -508,7 +508,7 @@ section {
 	transform: scale(0);
 }
 
-.service:hover .description {
+.product:hover .description {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
@@ -545,106 +545,6 @@ section {
 
 .team .title {
 	margin: 50px 0;
-}
-/* Pricing */
-
-#pricing {
-	background: #1985A1 url('../img/pricing1.jpg') no-repeat center center;
-	-webkit-background-size: cover;
-	background-size: cover;
-	-webkit-transition: background-image 0.6s linear 0.3s;
-	transition: background-image 0.6s linear 0.3s;
-}
-
-.owl-pricing img {
-	width: 100%;
-}
-
-.owl-pricing,
-.pricings {
-	margin-top: 100px;
-	margin-bottom: 100px;
-}
-
-.pricing {
-	position: relative;
-	width: 100%;
-}
-
-.pricings .pricing .box-main,
-.pricings .pricing .box-second {
-	position: relative;
-	left: 25%;
-	display: inline-block;
-	width: 50%;
-	height: 300px;
-	padding: 50px 40px;
-	background: #bbb;
-	-webkit-transition: -webkit-transform 0.3s, background-image 0.3s, opacity 0.3s;
-	transition: transform 0.3s, background-image 0.3s, opacity 0.3s;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-
-.pricings .pricing .box-main {
-	z-index: 10;
-	padding-top: 40px;
-}
-
-.pricings .pricing .box-main:not(.active) {
-	cursor: pointer;
-}
-
-.pricings .pricing .box-main .info-icon {
-	font-size: 14px;
-	position: absolute;
-	top: 20px;
-	right: 20px;
-	pointer-events: none;
-	opacity: 0;
-	color: #fff;
-	-webkit-transition: opacity 0.3s;
-	transition: opacity 0.3s;
-}
-
-.pricings .pricing .box-main:not(.active) .info-icon {
-	opacity: 1;
-	-webkit-transition-delay: 0.2s;
-	transition-delay: 0.2s;
-}
-
-.pricings .pricing .box-main:not(.active):hover {
-	background: #afafaf;
-}
-
-.pricings .pricing .box-main.active {
-	background: #1985A1;
-	-webkit-transform: translateX(-99%);
-	-ms-transform: translateX(-99%);
-	transform: translateX(-99%);
-}
-
-.pricings .pricing .box-second {
-	position: absolute;
-	top: 0;
-	right: 0% !important;
-	left: auto;
-	opacity: 0;
-	background: #afafaf;
-}
-
-.pricings .pricing .box-second.active {
-	opacity: 1;
-	background: #1985A1;
-}
-
-.pricings .pricing.active .box-main,
-.pricings .pricing .box-second {
-	background: #1985A1;
-}
-
-.pricings .pricing .box-main a.btn {
-	margin-top: 50px;
 }
 
 .owl-twitter i.icon {
