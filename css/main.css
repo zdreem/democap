@@ -655,7 +655,7 @@ section {
 /* Footer */
 
 footer {
-	padding: 140px 0 40px;
+	padding: 50px 0 40px;
 	background: url('../img/footer.jpg');
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -698,10 +698,6 @@ footer .open-blink:before {
 
 footer .opening-hours {
 	margin-top: 60px;
-}
-
-footer .bottom-footer {
-	margin-top: 150px;
 }
 
 footer .social-footer {
